@@ -2,7 +2,6 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:offering_collection_web/model/offering_model.dart';
-import 'package:offering_collection_web/pages/church/pdf%20test2/url_text.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:printing/printing.dart';
@@ -168,9 +167,8 @@ class _ReportState extends State<Report> {
                           crossAxisAlignment: pw.CrossAxisAlignment.start,
                           children: [
                             pw.Text('0012 345 6789'),
-                            UrlText('offeringcollectionapp@gmail.com',
-                                'offeringcollectionapp@gmail.com'),
-                            UrlText('offering collection', '@flutter_tutjorial')
+                            pw.Text('offeringcollectionapp@gmail.com'),
+                            pw.Text('City Road 1st Street PO Box: 8563')
                           ]),
                       pw.SizedBox(width: 70),
                       pw.BarcodeWidget(
