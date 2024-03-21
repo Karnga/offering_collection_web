@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:offering_collection_web/model/offering_model.dart';
-import 'package:offering_collection_web/pages/church/pdf%20test3/report.dart';
+import 'package:offering_collection_web/pages/church/pdf%20report/report.dart';
 
 class SearchPage extends StatefulWidget {
   static const String id = "search-page";
